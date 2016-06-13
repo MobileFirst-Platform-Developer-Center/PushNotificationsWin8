@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-T659ABU</Machine>
+    <WindowsUser>Bharat Devdas</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>11923neekrish.FirstPushNotificationTest</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\obj\x86\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\PushNotifictionsWin8.Windows.exe">
+      <PackagePath>PushNotifictionsWin8.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundationPush.8.0.0.0\lib\netcore45\x86\IBMMobileFirstPlatformFoundationPushWin8.dll">
+      <PackagePath>IBMMobileFirstPlatformFoundationPushWin8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\IBMMobileFirstPlatformFoundationWin8.dll">
+      <PackagePath>IBMMobileFirstPlatformFoundationWin8.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\Newtonsoft.Json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\p3-sharpcompress.0.10.5.2\lib\netcore45\SharpCompress.dll">
+      <PackagePath>SharpCompress.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\Worklight.Core.dll">
+      <PackagePath>Worklight.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\AuthWinRT.dll">
+      <PackagePath>AuthWinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\AuthWinRTwp.dll">
+      <PackagePath>AuthWinRTwp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\AuthWinRT.winmd">
+      <PackagePath>AuthWinRT.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\AuthWinRTwp.winmd">
+      <PackagePath>AuthWinRTwp.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\PushNotifictionsWin8.Windows.xr.xml">
+      <PackagePath>PushNotifictionsWin8.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

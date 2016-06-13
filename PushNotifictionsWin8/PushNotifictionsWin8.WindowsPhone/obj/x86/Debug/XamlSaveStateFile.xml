@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <ReferenceAssembly PathName="c:\users\bharat devdas\documents\visual studio 2015\projects\pushnotifictionswin8\packages\ibm.mobilefirstplatformfoundationpush.8.0.0.0\lib\netcore45\x86\ibmmobilefirstplatformfoundationpushwin8.dll" HashGuid="30d9f0b9-a4fb-4b48-069f-3c2ea6c0d0c7" />
+    <ReferenceAssembly PathName="c:\users\bharat devdas\documents\visual studio 2015\projects\pushnotifictionswin8\packages\ibm.mobilefirstplatformfoundation.8.0.0.0\lib\netcore45\x86\ibmmobilefirstplatformfoundationwin8.dll" HashGuid="52a6c152-75af-412a-1fe6-a559cd3b2014" />
+    <ReferenceAssembly PathName="c:\users\bharat devdas\documents\visual studio 2015\projects\pushnotifictionswin8\packages\newtonsoft.json.7.0.1\lib\portable-net45+wp80+win8+wpa81+dnxcore50\newtonsoft.json.dll" HashGuid="86223907-5808-be51-71b4-c872f8140e29" />
+    <ReferenceAssembly PathName="c:\users\bharat devdas\documents\visual studio 2015\projects\pushnotifictionswin8\packages\p3-sharpcompress.0.10.5.2\lib\wpa8.1\sharpcompress.dll" HashGuid="8ecd91bb-1f52-3213-8d69-fa363be414dc" />
+    <ReferenceAssembly PathName="c:\users\bharat devdas\documents\visual studio 2015\projects\pushnotifictionswin8\packages\ibm.mobilefirstplatformfoundation.8.0.0.0\lib\wpa81\worklight.core.dll" HashGuid="d2109d8e-743a-2e54-3c65-a191c754608c" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

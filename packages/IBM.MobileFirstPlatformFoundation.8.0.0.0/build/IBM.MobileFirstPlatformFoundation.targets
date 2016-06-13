@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Licensed Materials - Property of IBM
+	 5725-I43 (C) Copyright IBM Corp. 2006, 2013. All Rights Reserved.
+	 US Government Users Restricted Rights - Use, duplication or
+     disclosure restricted by GSA ADP Schedule Contract with IBM Corp. -->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+<ItemGroup Condition=" '$(Platform)' == 'x86' ">
+    <Reference Include="worklight-windows8, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x86\IBMMobileFirstPlatformFoundationWin8.dll</HintPath>
+    </Reference>
+</ItemGroup>
+
+<ItemGroup Condition=" '$(Platform)' == 'x64' ">
+    <Reference Include="worklight-windows8, Version=1.0.0.0, Culture=neutral, processorArchitecture=x64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\x64\IBMMobileFirstPlatformFoundationWin8.dll</HintPath>
+    </Reference>
+</ItemGroup>
+
+<ItemGroup Condition=" '$(Platform)' == 'ARM' ">
+    <Reference Include="worklight-windows8, Version=1.0.0.0, Culture=neutral, processorArchitecture=ARM">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\IBM.MobileFirstPlatformFoundation.8.0.0.0\lib\netcore45\ARM\IBMMobileFirstPlatformFoundationWin8.dll</HintPath>
+    </Reference>
+</ItemGroup>
+</Project>

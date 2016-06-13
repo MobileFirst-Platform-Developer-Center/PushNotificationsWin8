@@ -1,0 +1,40 @@
+﻿<Page
+    x:Class="PushNotifictionsWin8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PushNotifictionsWin8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FF3880C2">
+
+        <TextBlock HorizontalAlignment="Center" Margin="42,5,48,0" TextWrapping="Wrap" Text="Push Notifications Win8" VerticalAlignment="Top" Height="35" Width="310" Foreground="White" TextAlignment="Center" FontSize="26" FontFamily="Segoe WP SemiLight"/>
+        <TextBlock x:Name="UserName" FontSize="20" HorizontalAlignment="Left" Height="35" Margin="42,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="310"/>
+        <Button x:ConnectionId='1' Content="IS PUSH SUPPORTED" x:Name="IsPushSupported" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,70,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                              />
+        <Button x:ConnectionId='2' Content="REGISTER DEVICE" x:Name="RegisterDevice" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,140,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                             />
+        <Button x:ConnectionId='3' Content="GET TAGS" x:Name="GetTags" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,210,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                      />
+        <Button x:ConnectionId='4' Content="SUBSCRIBE" x:Name="Subscribe" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,280,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                        />
+        <Button x:ConnectionId='5' Content="GET SUBSCRIPTIONS" x:Name="GetSubscriptions" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,350,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                               />
+        <Button x:ConnectionId='6' Content="UNSUBSCRIBE" x:Name="Unsubscribe" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,420,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                          />
+        <Button x:ConnectionId='7' Content="UNREGISTER DEVICE" x:Name="UnregisterDevice" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,490,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                               />
+        <Button x:ConnectionId='8' Content="LOGOUT" x:Name="Logout" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,560,0,0" FontSize="22" Background="#FF3880C2" Foreground="#FFF9FBFF" Height="70" Width="310" FontWeight="Normal" FontFamily="Segoe UI Semilight"                     />
+
+        <Grid Visibility="Visible" x:Name="LoginGrid" HorizontalAlignment="Center" Height="381" Margin="2,83,2,0" VerticalAlignment="Top" Width="396" Background="#FF3880C2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="107*"/>
+                <ColumnDefinition Width="289*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox HorizontalAlignment="Right" x:Name="username" FontSize="20"   Margin="0,9,60.833,0" Text="" VerticalAlignment="Top" Height="50" Width="270" PlaceholderText="Username" TextAlignment="Center" Grid.ColumnSpan="2" />
+            <TextBox HorizontalAlignment="Right" x:Name="password" FontSize="20"   Margin="0,67,60.833,0" Text="" VerticalAlignment="Top" Height="50" Width="270" PlaceholderText="Password" TextAlignment="Center" Grid.ColumnSpan="2" />
+
+            <Button x:ConnectionId='9' Name="OKButton" Content="OK" HorizontalAlignment="Left" Margin="62,168,0,0" VerticalAlignment="Top" Width="104" Height="70" FontSize="20"                        Grid.ColumnSpan="2"/>
+            <Button x:ConnectionId='10' Name="CancelButton"                            Content="Cancel" HorizontalAlignment="Left" Margin="78.333,169,0,0" VerticalAlignment="Top" Width="150" Height="70" FontSize="20" Grid.Column="1"/>
+            <TextBlock Name="HintText" HorizontalAlignment="Left" Margin="2,262,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="73" Width="390" FontSize="20" TextAlignment="Center" FontFamily="Segoe UI Semilight" Grid.ColumnSpan="2"/>
+            <CheckBox x:Name="RememberMe" Content="RememberMe" HorizontalAlignment="Left" Margin="65,119,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        </Grid>
+    </Grid>
+</Page>
+

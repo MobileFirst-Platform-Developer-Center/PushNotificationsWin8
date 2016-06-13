@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Files><file>\AuthWinRT.winmd</file><file>\AuthWinRTwp.winmd</file><file>\IBMMobileFirstPlatformFoundationPushWin8.dll</file><file>\IBMMobileFirstPlatformFoundationWin8.dll</file><file>\Newtonsoft.Json.dll</file><file>\PushNotifictionsWin8.WindowsPhone.exe</file><file>\SharpCompress.dll</file><file>\Worklight.Core.dll</file></Files>
