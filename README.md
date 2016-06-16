@@ -1,6 +1,6 @@
 IBM MobileFirst Platform Foundation
 ===
-## PushNotificationsWin10
+## PushNotificationsWin8
 A sample application demonstrating use of push notifications in Windows 8.1 Universal applications.
 
 ### Tutorials
