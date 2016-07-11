@@ -8,7 +8,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/notificatio
 
 ### Usage
 
-1. Import the project to Visual Studio.
+1. Import the project to Visual Studio and [add the MobileFirst Windows SDK](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/adding-the-mfpf-sdk/windows-8-10/#adding-the-mobilefirst-native-sdk).
 2. From a **Command-line** window, navigate to the project's root folder and run the command: `mfpdev app register`.
 3. In the MobileFirst console:
 	* Under **Applications** → **PushNotificationsWin8** → **Security** → **Map scope elements to security checks**, add a mapping for `push.mobileclient`.
