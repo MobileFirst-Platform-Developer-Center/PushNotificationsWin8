@@ -1,1 +1,0 @@
-C:\Users\Bharat Devdas\Documents\Visual Studio 2015\Projects\PushNotifictionsWin8\PushNotifictionsWin8\PushNotifictionsWin8.Windows\PushNotifictionsWin8.Windows.csproj;x86

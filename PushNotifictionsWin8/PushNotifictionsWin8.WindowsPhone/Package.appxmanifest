@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="11923neekrish.FirstPushNotificationTest" Publisher="CN=5B6968C2-EA64-4DE9-95E3-DD2B635ED36F" Version="1.0.0.0" />
+  <Identity Name="<YOUR_IDENTITY_NAME>" Publisher="<YOUR_PUBLISHER_ID>" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="b60fbc21-3f9b-4595-af82-bb9f1bd66636" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>PushNotifictionsWin8.WindowsPhone</DisplayName>
-    <PublisherDisplayName>Bharat Devdas</PublisherDisplayName>
+    <PublisherDisplayName>Publisher</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
