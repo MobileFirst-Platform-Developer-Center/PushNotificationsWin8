@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-  <Identity Name="<YOUR_IDENTITY_NAME>" Publisher="<YOUR_PUBLISHER_ID>" Version="1.0.0.0" />
+  <Identity Name="b38f4de5-08c0-400a-9ce8-c2d7f3b8e6d6" Publisher="CN=mobilefirst" Version="1.0.0.0" />
   <Properties>
     <DisplayName>PushNotifictionsWin8.Windows</DisplayName>
     <PublisherDisplayName>Publisher</PublisherDisplayName>

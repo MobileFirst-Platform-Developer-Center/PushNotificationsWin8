@@ -231,8 +231,7 @@ namespace PushNotifictionsWin8
             try
             {
                 JObject Options = new JObject();
-                Options["phoneNumber"] = "9999999999";
-                MFPPushMessageResponse Response = await PushClient.RegisterDevice(Options);
+                MFPPushMessageResponse Response = await PushClient.RegisterDevice(null);
                 NotificationListner Listner = new NotificationListner();
                 PushClient.Listen(Listner);
 

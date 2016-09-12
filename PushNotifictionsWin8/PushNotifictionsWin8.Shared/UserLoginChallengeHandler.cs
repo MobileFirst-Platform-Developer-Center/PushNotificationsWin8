@@ -144,7 +144,7 @@ namespace PushNotifictionsWin8
             localSettings.Values["useridentity"] = identity.GetValue("user");
         }
 
-        public override void SubmitChallengeAnswer(object answer)
+        public void SubmitChallengeAnswer(object answer)
         {
             challengeAnswer = (JObject)answer;
         }
